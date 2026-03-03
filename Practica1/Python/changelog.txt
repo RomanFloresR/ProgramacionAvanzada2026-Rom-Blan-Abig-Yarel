@@ -1,6 +1,6 @@
 // versión 1.0.0 el programa figura calcular el área de un triangulo
 
-// Version 1.0.1 correccin de formula, descripcion agregada - Blanca
+// Version 1.0.1 correccin de formula, descripcion agregada - Blanca 03/03/2026 05:00 pm
 
 //Version 1.1.0 pedir datos al usuario para el calculo - Yareli  03/03/2026 05:10 pm 
 
