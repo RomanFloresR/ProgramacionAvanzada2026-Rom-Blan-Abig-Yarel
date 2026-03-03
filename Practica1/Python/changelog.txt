@@ -2,5 +2,5 @@
 
 // Version 1.0.1 correccin de formula, descripcion agregada - Blanca
 
-//Version 1.1.0 pedir datos al usuario para el calculo - Yareli  
+//Version 1.1.0 pedir datos al usuario para el calculo - Yareli  03/03/2026 05:10 pm 
 
