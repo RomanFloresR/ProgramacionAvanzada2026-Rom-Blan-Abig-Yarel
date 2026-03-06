@@ -4,6 +4,11 @@
 
 //Version 1.1.0 pedir datos al usuario para el calculo - Yareli  03/03/2026 05:10 pm 
 
-//#Version 1.2.0 - Román 03/03/2026 12:02 am
+//Version 1.2.0 - Román 03/03/2026 12:02 am
   - Restructuración del codigo en funciones
   - Menu para volver a realizar el calculo
+
+//Version 2.0.0 - Blanca 05/03/2026 06:15
+  - Cambio a la finalidad del codigo, ahora puede calcular el area de un triangulo o un cuadrado.
+  - Se agrego funsion para calcular el area de un cuadrado 
+  - Se agrego un menu de figuras.
