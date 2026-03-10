@@ -1,1 +1,4 @@
 // version 1.0.0 programa que permite el calculo del área de un triangulo 
+
+// Versión 1.0.1 10/03/2026 4:12 pm Roman
+#Arreglado error con la formula de área
