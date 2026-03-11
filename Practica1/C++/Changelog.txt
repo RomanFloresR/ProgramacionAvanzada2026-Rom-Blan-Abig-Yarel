@@ -2,3 +2,6 @@
 
 // Versión 1.0.1 10/03/2026 4:12 pm Roman
 #Arreglado error con la formula de área
+ 
+//Versión 1-1-0 11/03/2026 4:16 p.m. Abigail 
+#El usuario puede ingresar la base y altura deseados.
