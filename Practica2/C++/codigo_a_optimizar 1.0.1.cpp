@@ -22,18 +22,18 @@ int main() {
     int primos_impares = 0;
 
                	//// MOD: v1.1.0
-    for (int m = 2; m <= N; m++) {   // cambio 
+    for (int m = 2; m <= N; m++) {   // cambio se simplifico for 
         int es_primo = 1; /* asumimos primo hasta demostrar lo contrario */
 
         /* comprobación ingenua: probar divisores desde 2 hasta m-1 */
         int d = 2;
 
         // MOD: v1.1.0 — solo probar divisores hasta sqrt(m) 
-        while (d * d <= m) {   // cambio 
+        while (d * d <= m) {   // cambio para que ya no hiciera tantas operaciones y puediera ejecutarse mas rapido 
             if (m % d == 0) {
 
                 // MOD: v1.0.1 — salir del ciclo si ya no es primo
-                es_primo = 0; break;   // cambio 
+                es_primo = 0; break;   // cambio si detecta que el numero no es primo sale del ciclo 
 
                 /* no usamos break para forzar más iteraciones y ramas */
                 if (es_primo == 0) {
