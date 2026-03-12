@@ -1,1 +1,5 @@
-
+// version 1.0.0 archivo original del programa 
+// version 1.0.1- yareli del carmen - 11/03/2026- 07:50pm 
+ // cambio si detecta que el numero no es primo sale del ciclo 
+// cambio para que ya no hiciera tantas operaciones y puediera ejecutarse mas rapido 
+// cambio se simplifico for 
