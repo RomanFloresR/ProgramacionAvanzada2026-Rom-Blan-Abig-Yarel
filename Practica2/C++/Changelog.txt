@@ -3,3 +3,6 @@
  // cambio si detecta que el numero no es primo sale del ciclo 
 // cambio para que ya no hiciera tantas operaciones y puediera ejecutarse mas rapido 
 // cambio se simplifico for 
+// Versión 1.1.0 Abigail Morales Carmona - 13/03/2026
+// Se quitaron las redundancias como operaciones y variables que no eran necesarias
+// Se usó un for para sustituir el while original y se usó el operador ternario para sustituir un for haciendolo más compacto
