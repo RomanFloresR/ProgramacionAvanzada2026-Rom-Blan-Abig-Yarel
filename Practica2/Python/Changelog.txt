@@ -1,2 +1,2 @@
 // Version 1.0.1 11/03/2026 3:05 p.m. Blanca
-#Se dismunuyo el codigo al eliminar las ramas innecesarias (else), el if anidado y se remplazo el bloque if-else por abs
+#Se disminuyó el codigo al eliminar las ramas innecesarias (else), el if anidado y se remplazo el bloque if-else por abs
