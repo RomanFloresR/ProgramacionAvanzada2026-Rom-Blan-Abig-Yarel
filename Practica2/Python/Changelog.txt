@@ -1,2 +1,8 @@
 // Version 1.0.1 11/03/2026 3:05 p.m. Blanca
 #Se disminuyó el codigo al eliminar las ramas innecesarias (else), el if anidado y se remplazo el bloque if-else por abs
+
+// Version 1.1.0 14/03/2026 5:13 p.m Román
+#- Se cambio el tipo del array de frecuencias a diccionario
+#- Se actualizo el codigo para encontar frecuencias para funcionar con diccionario
+#- Se reestructuro el codigo para encontar la moda
+#- Se simplifico la estructura para encontar la suma de moda
