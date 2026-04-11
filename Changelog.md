@@ -9,3 +9,5 @@ version 1.0.3 - Actualizacion y se subieron los resultados - 21:00 - blanca isab
 version 1.0.4 - Actualización y se añadieron los resultados - 21:35 - Román Flores Rentería
 -Se agrego funciones y menu para crear offset para temp y ldr a partir de muestras del usuario
 -Se arreglo un error con los encabezados del archivo .cvs 
+
+Versión 1.0.5 - -Se agrego el parametro NMuestras_MM-22:35h- Abigail Morales Carmona 
