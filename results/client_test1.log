@@ -1,0 +1,10 @@
+%runfile C:/Users/bakaa/Desktop/cliente1.1.1.py --wdir
+: prueba 1
+Servidor: Respuesta 1
+: prueba 2
+Servidor: Respuesta 2
+: prueba 3
+Servidor: Respuesta 3
+: prueba 4
+Servidor: Cerrar Servidor
+El servidor cerro
