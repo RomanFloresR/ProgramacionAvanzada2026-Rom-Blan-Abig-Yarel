@@ -1,0 +1,12 @@
+%runfile 'C:/Users/Maria del Carmen/OneDrive - COLEGIO NACIONAL DE EDUCACION PROFESIONAL TECNICA Veracruz/Escritorio/Python Projects/Servido 1.1.1.py' --wdir
+Nombre de PC: LAPTOP-A0B152S5
+Dirección IP: 192.168.137.1
+Iniciando servidor en 192.168.137.1 puerto 8080
+Esperando conexión...
+Conexión desde ('192.168.137.155', 11530)
+Cliente: prueba 1
+Servidor: Respuesta Horspot1
+Cliente: Cerrar Cliente
+El clienta ha cerrado la conexión
+Cerrando conexión
+Tiempo de Conexión:  33.068629026412964
