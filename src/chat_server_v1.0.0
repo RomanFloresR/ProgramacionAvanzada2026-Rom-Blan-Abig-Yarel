@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr 23 10:12:31 2026
+
+@author: Maria del Carmen
+"""
+
+import socket
+
+#0 Conseguir dirección IP
+hostname = socket.gethostname()
+IPAddr = socket.gethostbyname(hostname)
+
+print("Your Computer Name is:", hostname)
+print("Your Computer IP Address is:", IPAddr)
+
+#1 Crear el socket TCP/IP
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+#2 Vincular el socket al puerto
+server_address = (str(IPAddr), 8080)
+print(f'Iniciando servidor en {server_address[0]} puerto {server_address[1]}')
+sock.bind(server_address)
+
+# 3. Escuchar conexiones entrantes
+sock.listen(1)
+
+while True:
+    # Esperar conexión
+    print('Esperando conexión...')
+    connection, client_address = sock.accept()
+    try:
+        print(f'Conexión desde {client_address}')
+        # Recibir datos
+        while True:
+            data = connection.recv(16)
+            print(f'Recibido: {data.decode()}')
+            if data:                              #Si se recibe mensaje, enviar respuesta
+                mensaje=input(str('- '))
+                print('Enviando respuesta')
+                connection.sendall(mensaje)
+            else:
+                break
+    finally:
+        # Cerrar conexión
+        connection.close()
+        break
